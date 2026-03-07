@@ -3,7 +3,6 @@ import { CONFIG } from "./config.ts";
 import { DocumentProcessor } from "./documentProcessor.ts";
 import { type PretrainedOptions } from "@huggingface/transformers";
 import { Neo4jVectorStore } from "@langchain/community/vectorstores/neo4j_vector";
-import { VectaraStore } from "@langchain/community/vectorstores/vectara";
 import { displayResults } from "./util.ts";
 
 let _neo4jVectorStore = null
